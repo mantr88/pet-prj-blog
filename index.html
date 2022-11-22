@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section class="introduction container">
+        <picture class="introduction__card">
+          <source
+            srcset="./images/John-480.jpg 1x, ./images/John-480@2x.jpg 2x"
+            media="(max-width:1151px)"
+          />
+          <img src="./images/John-480.jpg" alt="men in a cap" class="introduction__photo" />
+        </picture>
+        <h1 class="introduction__title">Hi, I am John, Creative Technologist</h1>
+        <p class="introduction__text">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+          consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+        <button class="introduction__btn-resume" type="button">Download Resume</button>
+      </section>
+      <section class="posts container">
+        <h2 class="posts__title">Recent posts</h2>
+        <article class="post">
+          <h3 class="post__title">Making a design system from scratch</h3>
+          <span><time datetime="2021-02-12">Design, Pattern</time></span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+        <article class="post">
+          <h3 class="post__title">Creating pixel perfect icons in Figma</h3>
+          <span><time datetime="2021-02-12">Design, Pattern</time></span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+      </section>
+      <section class="works-list container">
+        <h2 class="works-list__title">Featured works</h2>
+        <article class="my-work">
+          <picture class="my-work__card">
+            <source
+              srcset="./images/Dashboards-480.jpg 1x, ./images/Dashboards-480@2x.jpg 2x"
+              media="(max-width:1151px)"
+            />
+            <img src="./images/Dashboards-480.jpg" alt="men in a cap" class="my-work__photo" />
+          </picture>
+          <h3 class="my-work__title">Designing Dashboards</h3>
+          <p class="my-work__date">2020</p>
+          <span class="my-work__short-title">Dashboard</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
