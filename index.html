@@ -5,9 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
-    <header></header>
+    <header class="page-header">
+      <svg class="page-header__icon">
+            <use href="./images/menu.svg"></use>
+      </svg>
+    </header>
     <main>
       <section class="introduction container">
         <picture class="introduction__card">
@@ -63,5 +71,30 @@
         </article>
       </section>
     </main>
+    <footer class="bottom">
+      <ul class="bottom__list">
+        <li>
+          <svg class="bottom_icon">
+            <use href="./images/icons.svg#icon-facebook"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="bottom_icon">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="bottom_icon">
+            <use href="./images/icons.svg#icon-twitter"></use>
+          </svg>
+        </li>
+        <li>
+          <svg class="bottom_icon">
+            <use href="./images/icons.svg#icon-linkedin"></use>
+          </svg>
+        </li>
+      </ul>
+      <p>Copyright &#xa9 2020 All rights reserved</p>
+    </footer>
   </body>
 </html>
