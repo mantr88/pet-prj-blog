@@ -26,6 +26,10 @@
     }
 }
 
+.introduction__photo {
+    width: 100%;
+}
+
 .introduction__wrapper {
     @media screen and (min-width: 1152px) {
         max-width: 400px;
