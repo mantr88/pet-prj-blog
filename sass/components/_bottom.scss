@@ -1,0 +1,26 @@
+// .bottom {
+// }
+
+.bottom__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom__list-item {
+    &:not(:first-child) {
+        margin-left: 35px;
+    }
+
+}
+
+.bottom_icon {
+    width: 30px;
+    height: 30px;
+}
+
+.bottom__copyrights {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center
+}

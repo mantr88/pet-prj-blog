@@ -1,11 +1,118 @@
-.works {
-    outline: 2px solid teal;
+.works-list__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 3.33;
+    text-align: center;
+    
+    @media screen and (min-width: 1152px) {
+        margin-bottom: 22px;
+        font-size: 22px;
+        line-height: 2.73;
+        text-align: left;
+    }
 }
+
+.works__item {
+    margin-bottom: 29px;
+    border-bottom: 1px solid #E0E0E0;
+    &:nth-child(n+2) {
+        display: none;
+
+        @media screen and (min-width: 1152px) {
+            display: flex;
+        }
+    }
+}
+
+
 
 .my-work__card{
     max-width: 329px;
+    @media screen and(min-width:1152px) {
+        max-width: 246px;
+    }
 }
+    
+
 
 .my-work__photo{
     width: 100%;
+    margin-bottom: 17px;
 }
+
+.my-work-wrapper {
+    @media screen and(min-width:1152px) {
+        margin-left: 18px;
+    }
+}
+
+.my-work {
+    @media screen and(min-width:1152px) {
+        display: flex;
+    }
+}
+
+.my-work__title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.25;
+
+    @media screen and(min-width:1152px) {
+        font-size: 30px;
+        line-height: 1.46;
+    }
+}
+
+.date-title-wrapper {
+    display: flex;
+    margin-bottom: 25px;
+}
+// .works__list {
+// }
+
+
+// 
+.my-work__date {
+    margin-right: 22px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    
+    background-color: $date-bg-color;
+    border-radius: 16px;
+
+    @media screen and(min-width:1152px) {
+        font-size: 18px;
+    }
+    
+}
+
+.my-work__short-title {
+    
+    color: $light-font-color;
+
+    @media screen and(min-width:1152px) {
+        font-size: 20px;
+        line-height: 1.45;
+    }
+    
+}
+
+.my-work__text {
+    margin-bottom: 17px;
+}
+// .painted {
+// }
+// .portrait {
+// }
+// .of {
+// }
+// .a {
+// }
+// .girl {
+// }

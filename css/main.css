@@ -83,7 +83,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  outline: 2px solid purple;
 }
 @media screen and (min-width: 1152px) {
   .introduction {
@@ -144,7 +143,6 @@ a {
 .posts {
   background-color: #EDF7FA;
   padding-bottom: 38px;
-  outline: 2px solid green;
 }
 @media screen and (min-width: 1152px) {
   .posts {
@@ -229,14 +227,138 @@ a {
   }
 }
 
-.works {
-  outline: 2px solid teal;
+.works-list__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 3.33;
+  text-align: center;
+}
+@media screen and (min-width: 1152px) {
+  .works-list__title {
+    margin-bottom: 22px;
+    font-size: 22px;
+    line-height: 2.73;
+    text-align: left;
+  }
+}
+
+.works__item {
+  margin-bottom: 29px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.works__item:nth-child(n+2) {
+  display: none;
+}
+@media screen and (min-width: 1152px) {
+  .works__item:nth-child(n+2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .my-work__card {
   max-width: 329px;
 }
+@media screen and (min-width: 1152px) {
+  .my-work__card {
+    max-width: 246px;
+  }
+}
 
 .my-work__photo {
   width: 100%;
+  margin-bottom: 17px;
+}
+
+@media screen and (min-width: 1152px) {
+  .my-work-wrapper {
+    margin-left: 18px;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .my-work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.my-work__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+}
+@media screen and (min-width: 1152px) {
+  .my-work__title {
+    font-size: 30px;
+    line-height: 1.46;
+  }
+}
+
+.date-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.my-work__date {
+  margin-right: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+  background-color: #142850;
+  border-radius: 16px;
+}
+@media screen and (min-width: 1152px) {
+  .my-work__date {
+    font-size: 18px;
+  }
+}
+
+.my-work__short-title {
+  color: #8695A4;
+}
+@media screen and (min-width: 1152px) {
+  .my-work__short-title {
+    font-size: 20px;
+    line-height: 1.45;
+  }
+}
+
+.my-work__text {
+  margin-bottom: 17px;
+}
+
+.bottom__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom__list-item:not(:first-child) {
+  margin-left: 35px;
+}
+
+.bottom_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.bottom__copyrights {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
