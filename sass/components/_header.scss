@@ -1,9 +1,10 @@
 .page-header {
     display: flex;
     align-items: center;
-    height: 50px;
+    justify-content: end;
+    padding-top: 20px;
+    padding-bottom: 12px;
 
-    outline: 2px solid tomato;
 }
 .page-header__icon {
     display: block;
@@ -12,5 +13,37 @@
     width: 30px;
     height: 18px;
 
-    background-color: #21243D;
+    fill: #21243D;
+
+    @media screen and (min-width: 1152px) {
+        display: none;
+    }
+}
+
+.site-nav {
+    
+
+}
+.site-nav__list {
+    display: none;
+
+    @media screen and (min-width: 1152px) {
+        display: flex;
+    
+    }
+}
+.site-nav__item {
+    &:not(:first-child) {
+        margin-left: 33px;
+    }
+}
+.site-nav__link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.45;
+
+    &:hover,
+    &:focus {
+        color: $primary-color;
+    }
 }

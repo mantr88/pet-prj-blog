@@ -12,6 +12,14 @@
     }
 }
 
+.works__list {
+    margin-bottom: 150px;
+
+    @media screen and (min-width: 1152px) {
+        margin-bottom: 83px;
+    }
+}
+
 .works__item {
     margin-bottom: 29px;
     border-bottom: 1px solid #E0E0E0;

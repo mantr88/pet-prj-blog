@@ -26,8 +26,6 @@ body {
 @media screen and (min-width: 1152px) {
   .container {
     max-width: 1152px;
-    padding-left: 148px;
-    padding-right: 148px;
   }
 }
 
@@ -58,8 +56,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 50px;
-  outline: 2px solid tomato;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding-top: 20px;
+  padding-bottom: 12px;
 }
 
 .page-header__icon {
@@ -67,7 +68,36 @@ a {
   margin-left: auto;
   width: 30px;
   height: 18px;
-  background-color: #21243D;
+  fill: #21243D;
+}
+@media screen and (min-width: 1152px) {
+  .page-header__icon {
+    display: none;
+  }
+}
+
+.site-nav__list {
+  display: none;
+}
+@media screen and (min-width: 1152px) {
+  .site-nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.site-nav__item:not(:first-child) {
+  margin-left: 33px;
+}
+
+.site-nav__link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.45;
+}
+.site-nav__link:hover, .site-nav__link:focus {
+  color: #FF6464;
 }
 
 .introduction {
@@ -90,8 +120,9 @@ a {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     text-align: left;
   }
 }
@@ -242,6 +273,15 @@ a {
   }
 }
 
+.works__list {
+  margin-bottom: 150px;
+}
+@media screen and (min-width: 1152px) {
+  .works__list {
+    margin-bottom: 83px;
+  }
+}
+
 .works__item {
   margin-bottom: 29px;
   border-bottom: 1px solid #E0E0E0;
@@ -336,6 +376,11 @@ a {
   margin-bottom: 17px;
 }
 
+.bottom {
+  padding-top: 51px;
+  padding-bottom: 54px;
+}
+
 .bottom__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,6 +391,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 26px;
 }
 
 .bottom__list-item:not(:first-child) {
@@ -355,6 +401,7 @@ a {
 .bottom_icon {
   width: 30px;
   height: 30px;
+  fill: #21243D;
 }
 
 .bottom__copyrights {
