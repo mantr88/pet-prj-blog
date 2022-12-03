@@ -87,6 +87,10 @@ a {
   }
 }
 
+.site-nav__link--accent-color {
+  color: #FF6464;
+}
+
 .site-nav__item:not(:first-child) {
   margin-left: 33px;
 }
@@ -412,10 +416,6 @@ a {
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-}
-
-.site-nav__link--accent-color {
-  color: #FF6464;
 }
 
 .blogs {

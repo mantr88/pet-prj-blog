@@ -32,6 +32,11 @@
     
     }
 }
+
+.site-nav__link--accent-color {
+    color: $primary-color;
+}
+
 .site-nav__item {
     &:not(:first-child) {
         margin-left: 33px;
