@@ -495,4 +495,132 @@ a {
     margin-top: 15px;
     margin-bottom: 29px;
   }
+}
+
+.page-works__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 2;
+  margin-bottom: 13px;
+}
+
+.page-works-list__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 3.33;
+  text-align: center;
+}
+@media screen and (min-width: 1152px) {
+  .page-works-list__title {
+    margin-bottom: 22px;
+    font-size: 22px;
+    line-height: 2.73;
+    text-align: left;
+  }
+}
+
+.page-works__list {
+  margin-bottom: 150px;
+}
+@media screen and (min-width: 1152px) {
+  .page-works__list {
+    margin-bottom: 83px;
+  }
+}
+
+.page-works__item {
+  margin-bottom: 29px;
+  border-bottom: 1px solid #E0E0E0;
+}
+.page-works__item:nth-child(n+3) {
+  display: none;
+}
+@media screen and (min-width: 1152px) {
+  .page-works__item:nth-child(n+3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .page-works__item:nth-child(n+3):nth-child(2) {
+    display: none;
+  }
+}
+
+.my-work__card {
+  max-width: 329px;
+}
+@media screen and (min-width: 1152px) {
+  .my-work__card {
+    max-width: 246px;
+  }
+}
+
+.my-work__photo {
+  width: 100%;
+  margin-bottom: 17px;
+}
+
+@media screen and (min-width: 1152px) {
+  .my-work-wrapper {
+    margin-left: 18px;
+  }
+}
+
+@media screen and (min-width: 1152px) {
+  .my-work {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.my-work__title {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+}
+@media screen and (min-width: 1152px) {
+  .my-work__title {
+    font-size: 30px;
+    line-height: 1.46;
+  }
+}
+
+.date-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.my-work__date {
+  margin-right: 22px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: center;
+  background-color: #142850;
+  border-radius: 16px;
+}
+@media screen and (min-width: 1152px) {
+  .my-work__date {
+    font-size: 18px;
+  }
+}
+
+.my-work__short-title {
+  color: #8695A4;
+}
+@media screen and (min-width: 1152px) {
+  .my-work__short-title {
+    font-size: 20px;
+    line-height: 1.45;
+  }
+}
+
+.my-work__text {
+  margin-bottom: 17px;
 }/*# sourceMappingURL=main.css.map */
